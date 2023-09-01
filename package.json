@@ -64,6 +64,7 @@
     "test": "npm run lint && mdep test run",
     "compile": "tsc --build ./tsconfig.build.json",
     "prepublishOnly": "npm run compile",
+    "prepare": "npm run compile",
     "pretest": "npm run compile",
     "semantic-release": "semantic-release"
   },
